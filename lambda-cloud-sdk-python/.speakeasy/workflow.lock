@@ -1,0 +1,36 @@
+speakeasyVersion: 1.533.0
+sources:
+    Lambda Cloud API:
+        sourceNamespace: lambda-cloud-api
+        sourceRevisionDigest: sha256:a743f9732123069838f6a0e0b09fcfad015528fe060f58a0cc0cf0f70cd0cf8a
+        sourceBlobDigest: sha256:e3acd005827a90f457e26f40da5f979781b3d2cad639207b2c705956bd0f3df7
+        tags:
+            - latest
+            - 1.6.0
+targets:
+    lambda-cloud-sdk:
+        source: Lambda Cloud API
+        sourceNamespace: lambda-cloud-api
+        sourceRevisionDigest: sha256:a743f9732123069838f6a0e0b09fcfad015528fe060f58a0cc0cf0f70cd0cf8a
+        sourceBlobDigest: sha256:e3acd005827a90f457e26f40da5f979781b3d2cad639207b2c705956bd0f3df7
+        codeSamplesNamespace: lambda-cloud-api-python-code-samples
+        codeSamplesRevisionDigest: sha256:a69d76fc744e5e4fe911072f6930d023a155b55642c325290f15a04943034dde
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        Lambda Cloud API:
+            inputs:
+                - location: https://cloud.lambdalabs.com/api/v1/openapi.json
+            registry:
+                location: registry.speakeasyapi.dev/fundamental-research-labs/lambda-cloud/lambda-cloud-api
+    targets:
+        lambda-cloud-sdk:
+            target: python
+            source: Lambda Cloud API
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/fundamental-research-labs/lambda-cloud/lambda-cloud-api-python-code-samples
+                labelOverride:
+                    fixedValue: Python (SDK)
+                blocking: false

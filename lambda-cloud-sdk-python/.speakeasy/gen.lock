@@ -1,0 +1,478 @@
+lockVersion: 2.0.0
+id: 70f43ecf-3d97-4d83-abff-6e2deb7c4ffc
+management:
+  docChecksum: 24ad0bc543191b16bb778aee81c1c701
+  docVersion: 1.6.0
+  speakeasyVersion: 1.533.0
+  generationVersion: 2.578.0
+  releaseVersion: 0.0.1
+  configChecksum: d776843a48f8edfc9083534858a0138d
+features:
+  python:
+    additionalDependencies: 1.0.0
+    constsAndDefaults: 1.0.5
+    core: 5.14.0
+    defaultEnabledRetries: 0.2.0
+    devContainers: 3.0.0
+    enumUnions: 0.1.0
+    envVarSecurityUsage: 0.3.2
+    flatRequests: 1.0.1
+    flattening: 3.1.1
+    globalSecurity: 3.0.3
+    globalSecurityCallbacks: 1.0.0
+    globalServerURLs: 3.1.0
+    methodArguments: 1.0.2
+    methodSecurity: 3.0.1
+    responseFormat: 1.0.1
+    retries: 3.0.2
+    sdkHooks: 1.0.1
+    unions: 3.0.4
+generatedFiles:
+  - .devcontainer/README.md
+  - .devcontainer/devcontainer.json
+  - .devcontainer/setup.sh
+  - .gitattributes
+  - .python-version
+  - .vscode/settings.json
+  - USAGE.md
+  - docs/models/addsshkeyrequest.md
+  - docs/models/addsshkeyresponsebody.md
+  - docs/models/addsshkeysecurity.md
+  - docs/models/addsshkeysshkeysresponse400responsebody.md
+  - docs/models/addsshkeysshkeysresponsebody.md
+  - docs/models/addsshkeysshkeysresponseresponsebody.md
+  - docs/models/apierroraccountinactive.md
+  - docs/models/apierrorduplicate.md
+  - docs/models/apierrorfilesysteminuse.md
+  - docs/models/apierrorfilesysteminwrongregion.md
+  - docs/models/apierrorfilesystemnotfound.md
+  - docs/models/apierrorinstancenotfound.md
+  - docs/models/apierrorinsufficientcapacity.md
+  - docs/models/apierrorinvalidbillingaddress.md
+  - docs/models/apierrorinvalidparameters.md
+  - docs/models/apierrorlaunchresourcenotfound.md
+  - docs/models/apierrorquotaexceeded.md
+  - docs/models/apierrorunauthorized.md
+  - docs/models/createfilesystemfilesystemsresponse.md
+  - docs/models/createfilesystemfilesystemsresponse400responsebody.md
+  - docs/models/createfilesystemfilesystemsresponsebody.md
+  - docs/models/createfilesystemfilesystemsresponseresponsebody.md
+  - docs/models/createfilesystemresponse.md
+  - docs/models/createfilesystemresponsebody.md
+  - docs/models/createfilesystemsecurity.md
+  - docs/models/deletesshkeyrequest.md
+  - docs/models/deletesshkeyresponsebody.md
+  - docs/models/deletesshkeysecurity.md
+  - docs/models/deletesshkeysshkeysresponse400responsebody.md
+  - docs/models/deletesshkeysshkeysresponsebody.md
+  - docs/models/deletesshkeysshkeysresponseresponsebody.md
+  - docs/models/emptyresponse.md
+  - docs/models/filesystem.md
+  - docs/models/filesystemcreaterequest.md
+  - docs/models/filesystemdeletefilesystemsresponse400responsebody.md
+  - docs/models/filesystemdeletefilesystemsresponse404responsebody.md
+  - docs/models/filesystemdeletefilesystemsresponsebody.md
+  - docs/models/filesystemdeletefilesystemsresponseresponsebody.md
+  - docs/models/filesystemdeleterequest.md
+  - docs/models/filesystemdeleteresponse.md
+  - docs/models/filesystemdeleteresponsebody.md
+  - docs/models/filesystemdeletesecurity.md
+  - docs/models/firewallrule.md
+  - docs/models/firewallruleslistfirewallsresponsebody.md
+  - docs/models/firewallruleslistfirewallsresponseresponsebody.md
+  - docs/models/firewallruleslistresponsebody.md
+  - docs/models/firewallruleslistsecurity.md
+  - docs/models/firewallrulesputrequest.md
+  - docs/models/firewallrulessetfirewallsresponsebody.md
+  - docs/models/firewallrulessetfirewallsresponseresponsebody.md
+  - docs/models/firewallrulessetresponsebody.md
+  - docs/models/firewallrulessetsecurity.md
+  - docs/models/generatedsshkey.md
+  - docs/models/getinstanceinstancesresponse404responsebody.md
+  - docs/models/getinstanceinstancesresponsebody.md
+  - docs/models/getinstanceinstancesresponseresponsebody.md
+  - docs/models/getinstancerequest.md
+  - docs/models/getinstanceresponsebody.md
+  - docs/models/getinstancesecurity.md
+  - docs/models/image.md
+  - docs/models/imagearchitecture.md
+  - docs/models/imagespecificationfamily.md
+  - docs/models/imagespecificationid.md
+  - docs/models/instance.md
+  - docs/models/instanceactionavailability.md
+  - docs/models/instanceactionavailabilitydetails.md
+  - docs/models/instanceactionunavailablecode.md
+  - docs/models/instancelaunchrequest.md
+  - docs/models/instancelaunchrequestimage.md
+  - docs/models/instancelaunchresponse.md
+  - docs/models/instancemodificationrequest.md
+  - docs/models/instancerestartrequest.md
+  - docs/models/instancerestartresponse.md
+  - docs/models/instancestatus.md
+  - docs/models/instanceterminaterequest.md
+  - docs/models/instanceterminateresponse.md
+  - docs/models/instancetype.md
+  - docs/models/instancetypesitem.md
+  - docs/models/instancetypespecs.md
+  - docs/models/launchinstanceinstancesresponse.md
+  - docs/models/launchinstanceinstancesresponse400responsebody.md
+  - docs/models/launchinstanceinstancesresponse404responsebody.md
+  - docs/models/launchinstanceinstancesresponsebody.md
+  - docs/models/launchinstanceinstancesresponseresponsebody.md
+  - docs/models/launchinstanceresponse.md
+  - docs/models/launchinstanceresponsebody.md
+  - docs/models/launchinstancesecurity.md
+  - docs/models/listfilesystemsfilesystemsresponsebody.md
+  - docs/models/listfilesystemsfilesystemsresponseresponsebody.md
+  - docs/models/listfilesystemsresponsebody.md
+  - docs/models/listfilesystemssecurity.md
+  - docs/models/listimagesimagesresponsebody.md
+  - docs/models/listimagesimagesresponseresponsebody.md
+  - docs/models/listimagesresponsebody.md
+  - docs/models/listimagessecurity.md
+  - docs/models/listinstancesinstancesresponsebody.md
+  - docs/models/listinstancesinstancesresponseresponsebody.md
+  - docs/models/listinstancesresponsebody.md
+  - docs/models/listinstancessecurity.md
+  - docs/models/listinstancetypesinstancesresponsebody.md
+  - docs/models/listinstancetypesinstancesresponseresponsebody.md
+  - docs/models/listinstancetypesresponsebody.md
+  - docs/models/listinstancetypessecurity.md
+  - docs/models/listsshkeysresponsebody.md
+  - docs/models/listsshkeyssecurity.md
+  - docs/models/listsshkeyssshkeysresponsebody.md
+  - docs/models/listsshkeyssshkeysresponseresponsebody.md
+  - docs/models/postinstanceinstancesresponse400responsebody.md
+  - docs/models/postinstanceinstancesresponse404responsebody.md
+  - docs/models/postinstanceinstancesresponsebody.md
+  - docs/models/postinstanceinstancesresponseresponsebody.md
+  - docs/models/postinstancerequest.md
+  - docs/models/postinstanceresponsebody.md
+  - docs/models/postinstancesecurity.md
+  - docs/models/publicregioncode.md
+  - docs/models/reasoncode.md
+  - docs/models/region.md
+  - docs/models/response.md
+  - docs/models/restartinstanceinstancesresponse404responsebody.md
+  - docs/models/restartinstanceinstancesresponsebody.md
+  - docs/models/restartinstanceinstancesresponseresponsebody.md
+  - docs/models/restartinstanceresponsebody.md
+  - docs/models/restartinstancesecurity.md
+  - docs/models/schemebasicauth.md
+  - docs/models/security.md
+  - docs/models/securitygroupruleprotocol.md
+  - docs/models/sshkey.md
+  - docs/models/terminateinstanceinstancesresponse404responsebody.md
+  - docs/models/terminateinstanceinstancesresponsebody.md
+  - docs/models/terminateinstanceinstancesresponseresponsebody.md
+  - docs/models/terminateinstanceresponsebody.md
+  - docs/models/terminateinstancesecurity.md
+  - docs/models/user.md
+  - docs/models/userstatus.md
+  - docs/models/utils/retryconfig.md
+  - docs/sdks/filesystems/README.md
+  - docs/sdks/firewalls/README.md
+  - docs/sdks/images/README.md
+  - docs/sdks/instances/README.md
+  - docs/sdks/lambdacloudsdk/README.md
+  - docs/sdks/sshkeys/README.md
+  - poetry.toml
+  - py.typed
+  - pylintrc
+  - pyproject.toml
+  - scripts/prepare_readme.py
+  - scripts/publish.sh
+  - src/lambda_cloud_sdk/__init__.py
+  - src/lambda_cloud_sdk/_hooks/__init__.py
+  - src/lambda_cloud_sdk/_hooks/sdkhooks.py
+  - src/lambda_cloud_sdk/_hooks/types.py
+  - src/lambda_cloud_sdk/_version.py
+  - src/lambda_cloud_sdk/basesdk.py
+  - src/lambda_cloud_sdk/filesystems.py
+  - src/lambda_cloud_sdk/firewalls.py
+  - src/lambda_cloud_sdk/httpclient.py
+  - src/lambda_cloud_sdk/images.py
+  - src/lambda_cloud_sdk/instances.py
+  - src/lambda_cloud_sdk/models/__init__.py
+  - src/lambda_cloud_sdk/models/addsshkeyop.py
+  - src/lambda_cloud_sdk/models/addsshkeyrequest.py
+  - src/lambda_cloud_sdk/models/apierror.py
+  - src/lambda_cloud_sdk/models/apierroraccountinactive.py
+  - src/lambda_cloud_sdk/models/apierrorduplicate.py
+  - src/lambda_cloud_sdk/models/apierrorfilesysteminuse.py
+  - src/lambda_cloud_sdk/models/apierrorfilesysteminwrongregion.py
+  - src/lambda_cloud_sdk/models/apierrorfilesystemnotfound.py
+  - src/lambda_cloud_sdk/models/apierrorinstancenotfound.py
+  - src/lambda_cloud_sdk/models/apierrorinsufficientcapacity.py
+  - src/lambda_cloud_sdk/models/apierrorinvalidbillingaddress.py
+  - src/lambda_cloud_sdk/models/apierrorinvalidparameters.py
+  - src/lambda_cloud_sdk/models/apierrorlaunchresourcenotfound.py
+  - src/lambda_cloud_sdk/models/apierrorquotaexceeded.py
+  - src/lambda_cloud_sdk/models/apierrorunauthorized.py
+  - src/lambda_cloud_sdk/models/createfilesystemop.py
+  - src/lambda_cloud_sdk/models/deletesshkeyop.py
+  - src/lambda_cloud_sdk/models/emptyresponse.py
+  - src/lambda_cloud_sdk/models/filesystem.py
+  - src/lambda_cloud_sdk/models/filesystemcreaterequest.py
+  - src/lambda_cloud_sdk/models/filesystemdeleteop.py
+  - src/lambda_cloud_sdk/models/filesystemdeleteresponse.py
+  - src/lambda_cloud_sdk/models/firewallrule.py
+  - src/lambda_cloud_sdk/models/firewallruleslistop.py
+  - src/lambda_cloud_sdk/models/firewallrulesputrequest.py
+  - src/lambda_cloud_sdk/models/firewallrulessetop.py
+  - src/lambda_cloud_sdk/models/generatedsshkey.py
+  - src/lambda_cloud_sdk/models/getinstanceop.py
+  - src/lambda_cloud_sdk/models/image.py
+  - src/lambda_cloud_sdk/models/imagearchitecture.py
+  - src/lambda_cloud_sdk/models/imagespecificationfamily.py
+  - src/lambda_cloud_sdk/models/imagespecificationid.py
+  - src/lambda_cloud_sdk/models/instance.py
+  - src/lambda_cloud_sdk/models/instanceactionavailability.py
+  - src/lambda_cloud_sdk/models/instanceactionavailabilitydetails.py
+  - src/lambda_cloud_sdk/models/instanceactionunavailablecode.py
+  - src/lambda_cloud_sdk/models/instancelaunchrequest.py
+  - src/lambda_cloud_sdk/models/instancelaunchresponse.py
+  - src/lambda_cloud_sdk/models/instancemodificationrequest.py
+  - src/lambda_cloud_sdk/models/instancerestartrequest.py
+  - src/lambda_cloud_sdk/models/instancerestartresponse.py
+  - src/lambda_cloud_sdk/models/instancestatus.py
+  - src/lambda_cloud_sdk/models/instanceterminaterequest.py
+  - src/lambda_cloud_sdk/models/instanceterminateresponse.py
+  - src/lambda_cloud_sdk/models/instancetype.py
+  - src/lambda_cloud_sdk/models/instancetypesitem.py
+  - src/lambda_cloud_sdk/models/instancetypespecs.py
+  - src/lambda_cloud_sdk/models/launchinstanceop.py
+  - src/lambda_cloud_sdk/models/listfilesystemsop.py
+  - src/lambda_cloud_sdk/models/listimagesop.py
+  - src/lambda_cloud_sdk/models/listinstancesop.py
+  - src/lambda_cloud_sdk/models/listinstancetypesop.py
+  - src/lambda_cloud_sdk/models/listsshkeysop.py
+  - src/lambda_cloud_sdk/models/postinstanceop.py
+  - src/lambda_cloud_sdk/models/publicregioncode.py
+  - src/lambda_cloud_sdk/models/region.py
+  - src/lambda_cloud_sdk/models/restartinstanceop.py
+  - src/lambda_cloud_sdk/models/schemebasicauth.py
+  - src/lambda_cloud_sdk/models/security.py
+  - src/lambda_cloud_sdk/models/securitygroupruleprotocol.py
+  - src/lambda_cloud_sdk/models/sshkey.py
+  - src/lambda_cloud_sdk/models/terminateinstanceop.py
+  - src/lambda_cloud_sdk/models/user.py
+  - src/lambda_cloud_sdk/models/userstatus.py
+  - src/lambda_cloud_sdk/py.typed
+  - src/lambda_cloud_sdk/sdk.py
+  - src/lambda_cloud_sdk/sdkconfiguration.py
+  - src/lambda_cloud_sdk/ssh_keys.py
+  - src/lambda_cloud_sdk/types/__init__.py
+  - src/lambda_cloud_sdk/types/basemodel.py
+  - src/lambda_cloud_sdk/utils/__init__.py
+  - src/lambda_cloud_sdk/utils/annotations.py
+  - src/lambda_cloud_sdk/utils/enums.py
+  - src/lambda_cloud_sdk/utils/eventstreaming.py
+  - src/lambda_cloud_sdk/utils/forms.py
+  - src/lambda_cloud_sdk/utils/headers.py
+  - src/lambda_cloud_sdk/utils/logger.py
+  - src/lambda_cloud_sdk/utils/metadata.py
+  - src/lambda_cloud_sdk/utils/queryparams.py
+  - src/lambda_cloud_sdk/utils/requestbodies.py
+  - src/lambda_cloud_sdk/utils/retries.py
+  - src/lambda_cloud_sdk/utils/security.py
+  - src/lambda_cloud_sdk/utils/serializers.py
+  - src/lambda_cloud_sdk/utils/url.py
+  - src/lambda_cloud_sdk/utils/values.py
+examples:
+  listInstances:
+    speakeasy-default-list-instances:
+      responses:
+        "200":
+          application/json: {"data": [{"id": "0920582c7ff041399e34823a0be62549", "name": "My Instance", "ip": "198.51.100.2", "private_ip": "10.0.2.100", "status": "unhealthy", "ssh_key_names": ["My SSH key"], "file_system_names": ["my-filesytem"], "region": {"name": "us-east-1", "description": "California, USA"}, "instance_type": {"name": "gpu_8x_h100_sxm5gdr", "description": "8x H100 (80 GB SXM5)", "gpu_description": "H100 (80 GB SXM5)", "price_cents_per_hour": 3592, "specs": {"vcpus": 208, "memory_gib": 1800, "storage_gib": 24780, "gpus": 8}}, "hostname": "My Instance", "jupyter_token": "03b7d30d9d3e4d8fa41657bc0d478c1b", "jupyter_url": "https://jupyter-249e1ccff1894822af39ac822637f881.lambdaspaces.com/?token=03b7d30d9d3e4d8fa41657bc0d478c1b", "actions": {"migrate": {"available": true}, "rebuild": {"available": true}, "restart": {"available": false}, "cold_reboot": {"available": false}, "terminate": {"available": false}}}]}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/account-inactive", "message": "Your account is inactive.", "suggestion": "Make sure you have verified your email address and have a valid payment method. Contact Support if problems continue."}}
+  getInstance:
+    "":
+      parameters:
+        path:
+          id: "0920582c7ff041399e34823a0be62549"
+      responses:
+        "200":
+          application/json: {"data": {"id": "0920582c7ff041399e34823a0be62549", "name": "My Instance", "ip": "198.51.100.2", "private_ip": "10.0.2.100", "status": "terminating", "ssh_key_names": ["My SSH key"], "file_system_names": ["my-filesytem"], "region": {"name": "us-west-3", "description": "California, USA"}, "instance_type": {"name": "gpu_8x_h100_sxm5gdr", "description": "8x H100 (80 GB SXM5)", "gpu_description": "H100 (80 GB SXM5)", "price_cents_per_hour": 3592, "specs": {"vcpus": 208, "memory_gib": 1800, "storage_gib": 24780, "gpus": 8}}, "hostname": "My Instance", "jupyter_token": "03b7d30d9d3e4d8fa41657bc0d478c1b", "jupyter_url": "https://jupyter-249e1ccff1894822af39ac822637f881.lambdaspaces.com/?token=03b7d30d9d3e4d8fa41657bc0d478c1b", "actions": {"migrate": {"available": true}, "rebuild": {"available": true}, "restart": {"available": true}, "cold_reboot": {"available": false}, "terminate": {"available": false}}}}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/account-inactive", "message": "Your account is inactive.", "suggestion": "Make sure you have verified your email address and have a valid payment method. Contact Support if problems continue."}}
+        "404":
+          application/json: {"error": {"code": "global/object-does-not-exist", "message": "Specified instance does not exist."}}
+  postInstance:
+    "":
+      parameters:
+        path:
+          id: "0920582c7ff041399e34823a0be62549"
+      requestBody:
+        application/json: {"name": "My Instance"}
+      responses:
+        "200":
+          application/json: {"data": {"id": "0920582c7ff041399e34823a0be62549", "name": "My Instance", "ip": "198.51.100.2", "private_ip": "10.0.2.100", "status": "terminated", "ssh_key_names": [], "file_system_names": ["my-filesytem"], "region": {"name": "asia-northeast-1", "description": "California, USA"}, "instance_type": {"name": "gpu_8x_h100_sxm5gdr", "description": "8x H100 (80 GB SXM5)", "gpu_description": "H100 (80 GB SXM5)", "price_cents_per_hour": 3592, "specs": {"vcpus": 208, "memory_gib": 1800, "storage_gib": 24780, "gpus": 8}}, "hostname": "My Instance", "jupyter_token": "03b7d30d9d3e4d8fa41657bc0d478c1b", "jupyter_url": "https://jupyter-249e1ccff1894822af39ac822637f881.lambdaspaces.com/?token=03b7d30d9d3e4d8fa41657bc0d478c1b", "actions": {"migrate": {"available": false}, "rebuild": {"available": false}, "restart": {"available": true}, "cold_reboot": {"available": false}, "terminate": {"available": true}}}}
+        "400":
+          application/json: {"error": {"code": "global/invalid-parameters", "message": "Invalid request data."}}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/account-inactive", "message": "Your account is inactive.", "suggestion": "Make sure you have verified your email address and have a valid payment method. Contact Support if problems continue."}}
+        "404":
+          application/json: {"error": {"code": "global/object-does-not-exist", "message": "Specified instance does not exist."}}
+  listInstanceTypes:
+    speakeasy-default-list-instance-types:
+      responses:
+        "200":
+          application/json: {"data": {"gpu_1x_gh200": {"instance_type": {"name": "gpu_8x_h100_sxm5gdr", "description": "8x H100 (80 GB SXM5)", "gpu_description": "H100 (80 GB SXM5)", "price_cents_per_hour": 3592, "specs": {"vcpus": 208, "memory_gib": 1800, "storage_gib": 24780, "gpus": 8}}, "regions_with_capacity_available": [{"name": "us-west-1", "description": "California, USA"}]}}}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/account-inactive", "message": "Your account is inactive.", "suggestion": "Make sure you have verified your email address and have a valid payment method. Contact Support if problems continue."}}
+  launchInstance:
+    speakeasy-default-launch-instance:
+      requestBody:
+        application/json: {"region_name": "us-west-3", "instance_type_name": "gpu_8x_a100", "ssh_key_names": ["my-public-key"], "file_system_names": [], "name": "My Instance"}
+      responses:
+        "200":
+          application/json: {"data": {"instance_ids": ["0920582c7ff041399e34823a0be62549"]}}
+        "400":
+          application/json: {"error": {"code": "global/quota-exceeded", "message": "Quota exceeded.", "suggestion": "Contact Support to increase your quota."}}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/invalid-address", "message": "Your billing address is invalid.", "suggestion": "Make sure your billing address is valid. Contact Support if problems continue."}}
+        "404":
+          application/json: {"error": {"code": "global/object-does-not-exist", "message": "<value>", "suggestion": "<value>"}}
+  restartInstance:
+    speakeasy-default-restart-instance:
+      requestBody:
+        application/json: {"instance_ids": ["0920582c7ff041399e34823a0be62549"]}
+      responses:
+        "200":
+          application/json: {"data": {"restarted_instances": [{"id": "0920582c7ff041399e34823a0be62549", "name": "My Instance", "ip": "198.51.100.2", "private_ip": "10.0.2.100", "status": "terminating", "ssh_key_names": ["My SSH key"], "file_system_names": [], "region": {"name": "asia-northeast-2", "description": "California, USA"}, "instance_type": {"name": "gpu_8x_h100_sxm5gdr", "description": "8x H100 (80 GB SXM5)", "gpu_description": "H100 (80 GB SXM5)", "price_cents_per_hour": 3592, "specs": {"vcpus": 208, "memory_gib": 1800, "storage_gib": 24780, "gpus": 8}}, "hostname": "My Instance", "jupyter_token": "03b7d30d9d3e4d8fa41657bc0d478c1b", "jupyter_url": "https://jupyter-249e1ccff1894822af39ac822637f881.lambdaspaces.com/?token=03b7d30d9d3e4d8fa41657bc0d478c1b", "actions": {"migrate": {"available": false}, "rebuild": {"available": true}, "restart": {"available": false}, "cold_reboot": {"available": true}, "terminate": {"available": true}}}]}}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/account-inactive", "message": "Your account is inactive.", "suggestion": "Make sure you have verified your email address and have a valid payment method. Contact Support if problems continue."}}
+        "404":
+          application/json: {"error": {"code": "global/object-does-not-exist", "message": "Specified instance does not exist."}}
+  terminateInstance:
+    speakeasy-default-terminate-instance:
+      requestBody:
+        application/json: {"instance_ids": ["0920582c7ff041399e34823a0be62549"]}
+      responses:
+        "200":
+          application/json: {"data": {"terminated_instances": [{"id": "0920582c7ff041399e34823a0be62549", "name": "My Instance", "ip": "198.51.100.2", "private_ip": "10.0.2.100", "status": "booting", "ssh_key_names": [], "file_system_names": ["my-filesytem"], "region": {"name": "australia-east-1", "description": "California, USA"}, "instance_type": {"name": "gpu_8x_h100_sxm5gdr", "description": "8x H100 (80 GB SXM5)", "gpu_description": "H100 (80 GB SXM5)", "price_cents_per_hour": 3592, "specs": {"vcpus": 208, "memory_gib": 1800, "storage_gib": 24780, "gpus": 8}}, "hostname": "My Instance", "jupyter_token": "03b7d30d9d3e4d8fa41657bc0d478c1b", "jupyter_url": "https://jupyter-249e1ccff1894822af39ac822637f881.lambdaspaces.com/?token=03b7d30d9d3e4d8fa41657bc0d478c1b", "actions": {"migrate": {"available": false}, "rebuild": {"available": true}, "restart": {"available": true}, "cold_reboot": {"available": false}, "terminate": {"available": true}}}, {"id": "0920582c7ff041399e34823a0be62549", "name": "My Instance", "ip": "198.51.100.2", "private_ip": "10.0.2.100", "status": "booting", "ssh_key_names": ["My SSH key"], "file_system_names": ["my-filesytem"], "region": {"name": "us-east-3", "description": "California, USA"}, "instance_type": {"name": "gpu_8x_h100_sxm5gdr", "description": "8x H100 (80 GB SXM5)", "gpu_description": "H100 (80 GB SXM5)", "price_cents_per_hour": 3592, "specs": {"vcpus": 208, "memory_gib": 1800, "storage_gib": 24780, "gpus": 8}}, "hostname": "My Instance", "jupyter_token": "03b7d30d9d3e4d8fa41657bc0d478c1b", "jupyter_url": "https://jupyter-249e1ccff1894822af39ac822637f881.lambdaspaces.com/?token=03b7d30d9d3e4d8fa41657bc0d478c1b", "actions": {"migrate": {"available": true}, "rebuild": {"available": true}, "restart": {"available": false}, "cold_reboot": {"available": true}, "terminate": {"available": true}}}]}}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/account-inactive", "message": "Your account is inactive.", "suggestion": "Make sure you have verified your email address and have a valid payment method. Contact Support if problems continue."}}
+        "404":
+          application/json: {"error": {"code": "global/object-does-not-exist", "message": "Specified instance does not exist."}}
+  listSSHKeys:
+    speakeasy-default-list-SSH-keys:
+      responses:
+        "200":
+          application/json: {"data": [{"id": "ddf9a910ceb744a0bb95242cbba6cb50", "name": "my-public-key", "public_key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICN+lJwsONkwrdsSnQsu1ydUkIuIg5oOC+Eslvmtt60T noname"}, {"id": "ddf9a910ceb744a0bb95242cbba6cb50", "name": "my-public-key", "public_key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICN+lJwsONkwrdsSnQsu1ydUkIuIg5oOC+Eslvmtt60T noname"}]}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/account-inactive", "message": "Your account is inactive.", "suggestion": "Make sure you have verified your email address and have a valid payment method. Contact Support if problems continue."}}
+  addSSHKey:
+    speakeasy-default-add-SSH-key:
+      requestBody:
+        application/json: {"name": "my-public-key", "public_key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICN+lJwsONkwrdsSnQsu1ydUkIuIg5oOC+Eslvmtt60T noname"}
+      responses:
+        "200":
+          application/json: {"data": {"id": "ddf9a910ceb744a0bb95242cbba6cb50", "name": "my-public-key", "public_key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICN+lJwsONkwrdsSnQsu1ydUkIuIg5oOC+Eslvmtt60T noname", "private_key": "-----BEGIN RSA PRIVATE KEY-----\\nMIIEoAIBAAKCAQEAmTi0yMd35HkIKXgEAVLb14fE094YL5qgGqS5ayq9SHi72mlf\\np0hvMr9dqI1wVELRC6cqNYJio9B031gG3dGI3IMpxLzRptYPOmwXIN+jagV40Pzc\\nz6dExtn1OhFwJKlppoPj/2j0QXHSP7dHmRxmlkaQVZs7qy+twkcckMmHU7g9M3dP\\n89P0sQk6xWYX8lF+0bRv/VpNwBcFQfmy36xHpMgIq8hLlBaOZd2fti5jXrQaGOto\\nZo3gI7QLAY9YyFmfRLutBM+F+9ArvhYdYolroJOv8EvEIpN8cljn21WLH6plL22E\\ncLToH66+t0wcCYDHpqKZ/sLLzcjH6kxIgp/mJQIDAQABAoH/HJqr17uwEhg1vPhT\\nGoG6+Snzp45xVGCCT25odw3ERZmX8R6YZSgqtB8rDd2wFnJ53wrHvgePS6Pw63wg\\nRNi7DsX9nToEocY30kowbrezO9Qom7X4DSJwllinRY1pJy+10AWyjDzCZV5UpBHq\\n/M53W0M4rtPjGpgBSevuRVLym8PRMJAF4/YMKSOGN6grNmmBjsqCRw23Cps6ZiK9\\noE7V2UTcMK6WzPiPCbW1KxLoCx0ihdGH5q8Vj/lsRflKLpKVA9QUNCBXlnFzgEYh\\nYK7RGN0zmmITyQfvjdthvCFyMQJ4V2ccxVxa52zqN04Ywvy/HC1mhS9iy6wSSCtP\\nm2xTAoGBANciuYrof8Z3BWOXLBCsDvBYWzLs+wyIoi0SujVGSl9k9ThrahYTtbxq\\nnEKofeYP5gOzqeNGiKveIW8ZFqtiNNe36zSts6h3nndMKBLB92tGWjSG4yRDC7Tp\\nT0okUAkSDnDNwWONx0vhqdoNiLEIVvCp2HCCTCSxbHHOJcAAYtufAoGBALZTUaZz\\nUxF/WCICbxb9dABqk4hKLUe/3Hwhzb5e1PKTGnWesbnDIkIHqNx86MEcYaQQSGzW\\nZ/zBTUsbOC5qZt0UOuMeXiAb7cmwOEx4hiBYkEt/2xCKqQWNVnSY+4LLpGNZanFE\\nTVKZ5QB2oYNiJ3Lby16YStvRBzGc1TTQo+e7AoGAP4eAlRWNTfUtwTgOCipVCwJ8\\ng/BZPl1Gztqd5EeKhNsSUwPdQwG1BBvTYxfQfdSqDuPKQlQ83cvtwZn+CMQqaJ1m\\nNpso15HjWMVDfC6NOr9+uc4vWzD1TwoqoPFSNSuA2izYc+aVOMI93ydp+yVETzNI\\nuAiyJY/DP2Qp36X9i28CgYAlWUIDl+IvVmfGZ7s7+WV25F4ecBuAdCQFZaNQ2PpE\\nSrAD4iNEC14MKqeDqy6+yEKUKiW77dvVYf+kYAoNMAysQwWhGsprR21ZgHi36YSI\\nQbwlSyaj59Oh6IcKUYBMFc0x8NImK7ivMAlCJAsH7+Zm1/F8CjRjfRk9J4RhUlAR\\nGwKBgC4g7eZ/3fBBlL+eMxhCwK2QDS5E0emVI42676hhXAixPJ3PFePXWUmCFsXd\\nB1gDj7SR7h5nefoxjesCTwcf/rV+MPukjot6C9tEHhAJt7bDUelW9XOULwuEDWfL\\nCfG/iBa8YIxol5pw39I73/M+TF49EIDuq0ihXUHyap8MdpZs\\n-----END RSA PRIVATE KEY-----\\n"}}
+        "400":
+          application/json: {"error": {"code": "global/invalid-parameters", "message": "Invalid request data."}}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/account-inactive", "message": "Your account is inactive.", "suggestion": "Make sure you have verified your email address and have a valid payment method. Contact Support if problems continue."}}
+  deleteSSHKey:
+    speakeasy-default-delete-SSH-key:
+      parameters:
+        path:
+          id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {}}
+        "400":
+          application/json: {"error": {"code": "global/invalid-parameters", "message": "Invalid request data."}}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/account-inactive", "message": "Your account is inactive.", "suggestion": "Make sure you have verified your email address and have a valid payment method. Contact Support if problems continue."}}
+  listFilesystems:
+    speakeasy-default-list-filesystems:
+      responses:
+        "200":
+          application/json: {"data": [{"id": "398578a2336b49079e74043f0bd2cfe8", "name": "my-filesystem", "mount_point": "/home/ubuntu/my-filesystem", "created": "2025-10-09T05:04:17.044Z", "created_by": {"id": "3da5a70a57a7422ea8a7203f98b2198b", "email": "me@example.com", "status": "active"}, "is_in_use": false, "region": {"name": "asia-northeast-2", "description": "California, USA"}}, {"id": "398578a2336b49079e74043f0bd2cfe8", "name": "my-filesystem", "mount_point": "/home/ubuntu/my-filesystem", "created": "2025-04-08T23:20:12.762Z", "created_by": {"id": "3da5a70a57a7422ea8a7203f98b2198b", "email": "me@example.com", "status": "deactivated"}, "is_in_use": false, "region": {"name": "us-midwest-2", "description": "California, USA"}}]}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/account-inactive", "message": "Your account is inactive.", "suggestion": "Make sure you have verified your email address and have a valid payment method. Contact Support if problems continue."}}
+  createFilesystem:
+    speakeasy-default-create-filesystem:
+      requestBody:
+        application/json: {"name": "[\"my-filesytem\"]", "region": "us-south-3"}
+      responses:
+        "200":
+          application/json: {"data": {"id": "398578a2336b49079e74043f0bd2cfe8", "name": "my-filesystem", "mount_point": "/home/ubuntu/my-filesystem", "created": "2025-11-26T22:45:45.277Z", "created_by": {"id": "3da5a70a57a7422ea8a7203f98b2198b", "email": "me@example.com", "status": "deactivated"}, "is_in_use": true, "region": {"name": "us-east-3", "description": "California, USA"}}}
+        "400":
+          application/json: {"error": {"code": "global/duplicate", "message": "<value>"}}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/account-inactive", "message": "Your account is inactive.", "suggestion": "Make sure you have verified your email address and have a valid payment method. Contact Support if problems continue."}}
+  filesystemDelete:
+    speakeasy-default-filesystem-delete:
+      parameters:
+        path:
+          id: "<id>"
+      responses:
+        "200":
+          application/json: {"data": {"deleted_ids": ["398578a2336b49079e74043f0bd2cfe8"]}}
+        "400":
+          application/json: {"error": {"code": "filesystems/filesystem-in-use", "message": "<value>"}}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/account-inactive", "message": "Your account is inactive.", "suggestion": "Make sure you have verified your email address and have a valid payment method. Contact Support if problems continue."}}
+        "404":
+          application/json: {"error": {"code": "global/object-does-not-exist", "message": "Filesystem was not found."}}
+  listImages:
+    speakeasy-default-list-images:
+      responses:
+        "200":
+          application/json: {"data": [{"id": "43336648-096d-4cba-9aa2-f9bb7727639d", "created_time": "2023-02-17T08:49:04.328Z", "updated_time": "2025-03-26T15:48:40.303Z", "name": "ubuntu-24.04.01", "description": "Ubuntu LTS", "family": "ubuntu-lts", "version": "24.04.01", "architecture": "x86_64", "region": {"name": "asia-south-1", "description": "California, USA"}}, {"id": "43336648-096d-4cba-9aa2-f9bb7727639d", "created_time": "2025-05-06T10:43:00.431Z", "updated_time": "2023-01-02T10:54:27.061Z", "name": "ubuntu-24.04.01", "description": "Ubuntu LTS", "family": "ubuntu-lts", "version": "24.04.01", "architecture": "arm64", "region": {"name": "asia-northeast-1", "description": "California, USA"}}, {"id": "43336648-096d-4cba-9aa2-f9bb7727639d", "created_time": "2024-01-19T13:04:45.248Z", "updated_time": "2024-08-20T04:53:37.345Z", "name": "ubuntu-24.04.01", "description": "Ubuntu LTS", "family": "ubuntu-lts", "version": "24.04.01", "architecture": "x86_64", "region": {"name": "us-west-3", "description": "California, USA"}}]}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/account-inactive", "message": "Your account is inactive.", "suggestion": "Make sure you have verified your email address and have a valid payment method. Contact Support if problems continue."}}
+  firewallRulesList:
+    speakeasy-default-firewall-rules-list:
+      responses:
+        "200":
+          application/json: {"data": [{"protocol": "all", "port_range": [22, 22], "source_network": "0.0.0.0/0", "description": "Allow SSH from anywhere"}, {"protocol": "icmp", "port_range": [22, 22], "source_network": "0.0.0.0/0", "description": "Allow SSH from anywhere"}, {"protocol": "icmp", "port_range": [22, 22], "source_network": "0.0.0.0/0", "description": "Allow SSH from anywhere"}]}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/account-inactive", "message": "Your account is inactive.", "suggestion": "Make sure you have verified your email address and have a valid payment method. Contact Support if problems continue."}}
+  firewallRulesSet:
+    speakeasy-default-firewall-rules-set:
+      requestBody:
+        application/json: {"data": []}
+      responses:
+        "200":
+          application/json: {"data": []}
+        "401":
+          application/json: {"error": {"code": "global/invalid-api-key", "message": "API key was invalid, expired, or deleted.", "suggestion": "Check your API key or create a new one, then try again."}}
+        "403":
+          application/json: {"error": {"code": "global/account-inactive", "message": "Your account is inactive.", "suggestion": "Make sure you have verified your email address and have a valid payment method. Contact Support if problems continue."}}
+examplesVersion: 1.0.1
+generatedTests: {}

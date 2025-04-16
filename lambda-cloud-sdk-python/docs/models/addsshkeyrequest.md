@@ -1,0 +1,9 @@
+# AddSSHKeyRequest
+
+
+## Fields
+
+| Field                                                                                   | Type                                                                                    | Required                                                                                | Description                                                                             | Example                                                                                 |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| `name`                                                                                  | *str*                                                                                   | :heavy_check_mark:                                                                      | The name of the SSH key.                                                                | my-public-key                                                                           |
+| `public_key`                                                                            | *Optional[str]*                                                                         | :heavy_minus_sign:                                                                      | The public key for the SSH key.                                                         | ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICN+lJwsONkwrdsSnQsu1ydUkIuIg5oOC+Eslvmtt60T noname |

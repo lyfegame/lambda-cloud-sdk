@@ -1,0 +1,18 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    Lambda Cloud API:
+        inputs:
+            - location: https://cloud.lambdalabs.com/api/v1/openapi.json
+        registry:
+            location: registry.speakeasyapi.dev/fundamental-research-labs/lambda-cloud/lambda-cloud-api
+targets:
+    lambda-cloud-sdk:
+        target: python
+        source: Lambda Cloud API
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/fundamental-research-labs/lambda-cloud/lambda-cloud-api-python-code-samples
+            labelOverride:
+                fixedValue: Python (SDK)
+            blocking: false
